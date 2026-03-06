@@ -135,7 +135,7 @@ jupyter notebook notebooks/01_marketing_ab_test.ipynb
 - **统计推断**: 两样本比例 Z 检验 p-value=1.71e-13；Bootstrap 95% CI（ad-psa）约为 [0.593%, 0.940%]
 - **关键风险**: SRM（样本比例失配）显著，组间比例约 ad=96% / psa=4%，需在真实业务中优先排查随机化/采样机制后再下结论
 
-### 关键图表（可直接在 GitHub 浏览）
+### 关键图表
 
 | 转化率对比（含 95% CI） | Bootstrap 差异分布 |
 |---|---|
