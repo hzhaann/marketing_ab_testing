@@ -9,7 +9,7 @@
 - [x] 编写 README.md
 - [x] 编写核心文档
 - [x] 创建工具函数库（ab_utils.py）
-- [x] 创建 Notebook 模板
+- [x] 创建 Notebook 初版
 
 ---
 

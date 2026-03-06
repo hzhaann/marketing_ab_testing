@@ -116,7 +116,7 @@ check_environment.py      (可执行)
 
 ### 1. 完整的文档体系
 - 从快速开始到深入指南，覆盖全流程
-- 包含简历模板和面试准备清单
+- 包含简历写法参考和面试准备清单
 - 提供 GitHub 上传详细指南
 
 ### 2. 专业的代码结构
@@ -130,8 +130,8 @@ check_environment.py      (可执行)
 - 进度追踪（PROJECT_STATUS.md）
 
 ### 4. 面试友好
-- 简历模板包含常见面试问题
-- 提供量化结果模板
+- 简历写法参考包含常见面试问题
+- 提供量化结果写法参考
 - 准备了展示材料清单
 
 ---
@@ -207,7 +207,7 @@ check_environment.py      (可执行)
 ### 代码统计
 - Python 代码: ~300 行（ab_utils.py）
 - Shell 脚本: ~40 行
-- Notebook: 1 个模板
+- Notebook: 1 个
 
 ### 文档统计
 - 总文档字数: 约 20,000 字
@@ -258,7 +258,7 @@ check_environment.py      (可执行)
 所有分析步骤都有清晰的代码和文档，易于复现。
 
 ### 4. 面试友好
-专门准备了简历模板和面试问题清单，直接可用。
+专门准备了简历写法参考和面试问题清单，便于投递与面试展示。
 
 ---
 
@@ -275,7 +275,7 @@ check_environment.py      (可执行)
 - 环境检查: scripts/check_environment.py
 
 ### 面试准备
-- 简历模板: docs/RESUME_TEMPLATE.md
+- 简历写法参考: docs/RESUME_TEMPLATE.md
 - 实验结论: docs/experiment_summary.md
 
 ---
