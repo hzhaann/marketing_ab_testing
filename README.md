@@ -8,6 +8,28 @@
 
 ---
 
+## 核心结论
+
+详见 [实验结论卡](docs/experiment_summary.md)
+
+- **转化率差异**: ad 组 2.555% vs psa 组 1.785%，绝对提升 0.769%（相对提升 43.09%）
+- **统计推断**: 两样本比例 Z 检验 p-value=1.71e-13；Bootstrap 95% CI（ad-psa）约为 [0.593%, 0.940%]
+- **关键风险**: SRM（样本比例失配）显著，组间比例约 ad=96% / psa=4%，需在真实业务中优先排查随机化/采样机制后再下结论
+
+### 关键图表
+
+| 转化率对比（含 95% CI） | Bootstrap 差异分布 |
+|---|---|
+| ![Conversion Rate CI](docs/figures/conversion_rate_ci.png) | ![Bootstrap Diff](docs/figures/bootstrap_diff_distribution.png) |
+
+| 分层：曝光频次（low/mid/high） | 分层：Most Ads Day |
+|---|---|
+| ![Stratified by Total Ads](docs/figures/stratified_by_total_ads.png) | ![Stratified by Most Ads Day](docs/figures/stratified_by_most_ads_day.png) |
+
+| 分层：Most Ads Hour |
+|---|
+| ![Stratified by Most Ads Hour](docs/figures/stratified_by_most_ads_hour.png) |
+
 ## 🚀 快速开始
 
 **第一次使用？** 请先阅读 [START_HERE.md](START_HERE.md)
@@ -98,56 +120,6 @@ marketing_ab_testing/
 - 按曝光频次分层（低/中/高）
 - 按投放时段分层（day/hour）
 - 异质性效应探索
-
-## 快速开始
-
-### 1. 环境配置
-
-```bash
-# 创建虚拟环境
-python -m venv venv
-source venv/bin/activate  # Windows: venv\Scripts\activate
-
-# 安装依赖
-pip install -r requirements.txt
-```
-
-### 2. 数据准备
-
-从 Kaggle 下载数据集并放置到 `data/raw/` 目录：
-```bash
-# 下载链接
-https://www.kaggle.com/datasets/faviovaz/marketing-ab-testing
-```
-
-### 3. 运行分析
-
-```bash
-# 启动 Jupyter Notebook
-jupyter notebook notebooks/01_marketing_ab_test.ipynb
-```
-
-## 核心发现
-
-详见 [实验结论卡](docs/experiment_summary.md)
-
-- **转化率差异**: ad 组 2.555% vs psa 组 1.785%，绝对提升 0.769%（相对提升 43.09%）
-- **统计推断**: 两样本比例 Z 检验 p-value=1.71e-13；Bootstrap 95% CI（ad-psa）约为 [0.593%, 0.940%]
-- **关键风险**: SRM（样本比例失配）显著，组间比例约 ad=96% / psa=4%，需在真实业务中优先排查随机化/采样机制后再下结论
-
-### 关键图表
-
-| 转化率对比（含 95% CI） | Bootstrap 差异分布 |
-|---|---|
-| ![Conversion Rate CI](docs/figures/conversion_rate_ci.png) | ![Bootstrap Diff](docs/figures/bootstrap_diff_distribution.png) |
-
-| 分层：曝光频次（low/mid/high） | 分层：Most Ads Day |
-|---|---|
-| ![Stratified by Total Ads](docs/figures/stratified_by_total_ads.png) | ![Stratified by Most Ads Day](docs/figures/stratified_by_most_ads_day.png) |
-
-| 分层：Most Ads Hour |
-|---|
-| ![Stratified by Most Ads Hour](docs/figures/stratified_by_most_ads_hour.png) |
 
 ## 参考资料
 

@@ -304,7 +304,7 @@ check_environment.py      (可执行)
 
 ---
 
-**交付人**: Kiro AI Assistant  
-**接收人**: 黄梓涵  
+**交付人**: hzhaan  
+**接收人**: hzhaan  
 **交付日期**: 2025-03-XX  
 **项目状态**: ✅ 分析完成，待 GitHub 交付
