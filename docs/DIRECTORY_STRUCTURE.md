@@ -25,7 +25,7 @@ marketing_ab_testing/
 │   ├── data_dictionary.md           # 数据字典
 │   ├── experiment_summary.md        # 实验结论卡
 │   ├── PROJECT_ROADMAP.md           # 项目路线图
-│   ├── RESUME_TEMPLATE.md           # 简历描述模板
+│   ├── RESUME_TEMPLATE.md           # 简历写法参考
 │   ├── DIRECTORY_STRUCTURE.md       # 本文件
 │   ├── figures/                     # 图表输出
 │   │   └── .gitkeep
@@ -140,13 +140,13 @@ marketing_ab_testing/
   - 常见问题与解决方案
 
 #### RESUME_TEMPLATE.md
-- **用途**: 简历描述模板
+- **用途**: 简历写法参考
 - **内容**:
   - 完整版简历描述
   - 精简版简历描述
   - 面试自证清单
   - 必须能回答的问题
-  - 量化结果模板
+  - 量化结果写法参考
 
 #### DIRECTORY_STRUCTURE.md
 - **用途**: 本文件，说明目录结构

@@ -4,7 +4,7 @@ All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
 
-### 待完成
+### Notes
 - （暂无）
 
 ## [1.0.0] - 2026-03-06
@@ -22,8 +22,8 @@ All notable changes to this project will be documented in this file.
 - 创建 README 文档
 - 创建数据字典（data_dictionary.md）
 - 创建 A/B 测试工具函数库（ab_utils.py）
-- 创建分析 Notebook 模板
-- 创建实验结论卡模板（experiment_summary.md）
+- 创建分析 Notebook 初版
+- 创建实验结论卡（experiment_summary.md）
 - 创建项目路线图（PROJECT_ROADMAP.md）
 - 创建快速启动脚本（quick_start.sh）
 - 添加 .gitignore 文件

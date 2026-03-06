@@ -30,16 +30,16 @@
 
 #### 技术文档
 - ✅ docs/data_dictionary.md - 数据字典（7.2KB）
-- ✅ docs/experiment_summary.md - 实验结论卡模板（4.8KB）
+- ✅ docs/experiment_summary.md - 实验结论卡（4.8KB）
 - ✅ docs/PROJECT_ROADMAP.md - 项目路线图（8.5KB）
-- ✅ docs/RESUME_TEMPLATE.md - 简历模板（11.2KB）
+- ✅ docs/RESUME_TEMPLATE.md - 简历写法参考（11.2KB）
 - ✅ docs/DIRECTORY_STRUCTURE.md - 目录结构说明（7.8KB）
 - ✅ docs/GITHUB_SETUP.md - GitHub 上传指南（6.9KB）
 
 ### 3. 代码文件（100% 完成）
 
 - ✅ src/ab_utils.py - A/B 测试工具函数库（9个核心函数，约300行）
-- ✅ notebooks/01_marketing_ab_test.ipynb - 分析 Notebook 模板
+- ✅ notebooks/01_marketing_ab_test.ipynb - 分析 Notebook
 - ✅ scripts/quick_start.sh - 快速启动脚本
 - ✅ scripts/check_environment.py - 环境检查脚本
 
@@ -101,7 +101,7 @@ ab_utils.py               (~300 lines, 9 functions)
 
 ### notebooks/ 目录（1 个文件）
 ```
-01_marketing_ab_test.ipynb (模板)
+01_marketing_ab_test.ipynb
 ```
 
 ### scripts/ 目录（2 个文件）
