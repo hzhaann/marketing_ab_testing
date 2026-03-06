@@ -135,6 +135,20 @@ jupyter notebook notebooks/01_marketing_ab_test.ipynb
 - **统计推断**: 两样本比例 Z 检验 p-value=1.71e-13；Bootstrap 95% CI（ad-psa）约为 [0.593%, 0.940%]
 - **关键风险**: SRM（样本比例失配）显著，组间比例约 ad=96% / psa=4%，需在真实业务中优先排查随机化/采样机制后再下结论
 
+### 关键图表（可直接在 GitHub 浏览）
+
+| 转化率对比（含 95% CI） | Bootstrap 差异分布 |
+|---|---|
+| ![Conversion Rate CI](docs/figures/conversion_rate_ci.png) | ![Bootstrap Diff](docs/figures/bootstrap_diff_distribution.png) |
+
+| 分层：曝光频次（low/mid/high） | 分层：Most Ads Day |
+|---|---|
+| ![Stratified by Total Ads](docs/figures/stratified_by_total_ads.png) | ![Stratified by Most Ads Day](docs/figures/stratified_by_most_ads_day.png) |
+
+| 分层：Most Ads Hour |
+|---|
+| ![Stratified by Most Ads Hour](docs/figures/stratified_by_most_ads_hour.png) |
+
 ## 简历描述
 
 **投放 A/B 测试与转化率评估（Marketing A/B Testing）**｜个人项目｜2025.03 - 2025.04｜独立完成

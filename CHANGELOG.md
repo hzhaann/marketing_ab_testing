@@ -5,11 +5,15 @@ All notable changes to this project will be documented in this file.
 ## [Unreleased]
 
 ### 待完成
-- 下载并加载数据集
-- 完成数据探索与质量检查
-- 完成统计推断分析
-- 完成分层分析
-- 填写实验结论卡
+- （暂无）
+
+## [1.0.0] - 2026-03-06
+
+### Added
+- 完整分析 Notebook（含 Z-test、置信区间、Bootstrap、功效分析、分层分析）
+- 实验结论卡（experiment_summary.md）与核心发现/行动建议/风险说明
+- 核心图表导出至 docs/figures/ 并在 README 中直接展示
+- GitHub 仓库交付与可复现运行命令
 
 ## [0.1.0] - 2025-03-XX
 
