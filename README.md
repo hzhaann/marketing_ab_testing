@@ -149,26 +149,10 @@ jupyter notebook notebooks/01_marketing_ab_test.ipynb
 |---|
 | ![Stratified by Most Ads Hour](docs/figures/stratified_by_most_ads_hour.png) |
 
-## 简历描述
-
-**投放 A/B 测试与转化率评估（Marketing A/B Testing）**｜个人项目｜2025.03 - 2025.04｜独立完成
-
-- 项目描述：基于 Kaggle Marketing A/B Testing 数据集，评估"广告投放（ad）vs 对照组（psa）"对转化率的影响，输出是否值得投放的统计与业务结论。
-- 核心工作：
-  - 指标与假设：定义主指标（conversion）与业务阈值（MDE），明确 H0/H1 与检验口径
-  - 数据检查：对分组样本量、基础分布与异常值进行核查，确保实验结果可解释
-  - 统计推断：使用两样本比例检验/Bootstrap 估计转化率差异，给出 p-value 与 95% 置信区间
-  - Practical Significance：结合 MDE 判断结果是否具备业务意义，并输出投放建议与风险提示
-  - 分层分析：按曝光频次与投放时段分层对比效果差异，识别更优人群/时段策略
-
 ## 参考资料
 
 - [Kaggle Dataset](https://www.kaggle.com/datasets/faviovaz/marketing-ab-testing)
 - [A/B Testing Best Practices](https://www.exp-platform.com/)
-
-## 作者
-
-黄梓涵 | 数据分析作品集项目
 
 ## License
 
